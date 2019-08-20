@@ -1,18 +1,16 @@
-def prime?(argument)
-  if argument <= 1 
+def prime?(number)
+  if number <= 1 
     false 
-  elsif argument == 3 || argument == 2 
+  elsif number == 3 || number == 2 
     true
-  elsif argument.even?
+  elsif number.even?
     false 
   else 
     #argument % anything_but_argument_or_1 != 0 
     
   end 
     
-    #not a prime number
-  #number must be only divisble by 1 and itself 
-    #if n/n2 doesn't have a remainder - not prime 
+
   
 end 
 
