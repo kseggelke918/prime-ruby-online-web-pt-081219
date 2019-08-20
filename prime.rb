@@ -6,7 +6,7 @@ def prime?(number)
   elsif number.even?
     false 
   else 
-    (4..number).none? do |num|
+    (4..number/2).none? do |num|
       number % num == 0 
     end 
     #number % anything_but_number_or_1 != 0 
