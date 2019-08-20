@@ -8,6 +8,7 @@ def prime?(number)
   else 
     (4..number).none? do |num|
       number % num == 0 
+    end 
     #number % anything_but_number_or_1 != 0 
   end 
 end 
