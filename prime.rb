@@ -2,9 +2,9 @@ def prime?(number)
   if number <= 1 
     return false 
   elsif number == 3 || number == 2 
-    true
+    return true
   elsif number.even?
-    false 
+    return false 
   else 
     (4..(number - 1)).each do |num|
       return false if number % num == 0 
