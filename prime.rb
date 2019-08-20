@@ -6,6 +6,7 @@ def prime?(number)
   elsif number.even?
     false 
   else 
+    (4..number).
     #argument % anything_but_argument_or_1 != 0 
     
   end 
