@@ -9,8 +9,7 @@ def prime?(number)
     (4..(number - 1)).each do |num|
       return false if number % num == 0 
       end 
-      true 
-    end 
   end 
+  true 
 end 
 
